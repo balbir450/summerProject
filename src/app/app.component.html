@@ -1,0 +1,42 @@
+<div class ="bgimg">
+    
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container">
+    <!-- Brand/logo -->
+    <a class="navbar-brand text-warning font-weight-bold" href="#">Local Market</a>
+    
+    <!-- Links -->
+     <button class="navbar toggler" type="button" data toggle="collapse" data-target="#collapsenavbar">
+       <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse text=center" id="collapsenavbar">
+      <ul class="navbar-nav ml-auto">
+      
+      </ul>
+      </div>
+    </div>
+    </nav>
+    <div class="container text-center headerset">
+      <div class="container">
+        <div class="content">
+      <h1 >Buy From Anywhere Anytime
+        <br><br> In your NearBy </h1>
+      <h3 class="hi">Welcome To Your Own Website</h3>
+      <button class="btn btn-warning text-white btn-lg " mat-button (click)="openDialog()">Subscribe</button>
+    </div>
+    </div>
+    </div> 
+  
+    <section class="main-page">
+    
+        <div class="row">
+          <div class="col-12">
+            <router-outlet></router-outlet>
+          </div>
+       
+      </div>
+      </section>
+  
+     
+</div>
+

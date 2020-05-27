@@ -1,0 +1,36 @@
+.headerset{
+    padding:150px;
+    box-sizing:border-box;
+}
+.headerset h1{
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+
+    
+
+}
+.hi{
+    color: white;
+    font-weight: bold;
+}
+
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.container {
+    position: relative;
+   
+   
+    color: white;
+  }
+  
+  .container .content {
+      padding:10px;
+    position: center; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */
+  }
